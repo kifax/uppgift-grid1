@@ -1,4 +1,6 @@
 .container{
+    grid-template-columns: 3fr 2fr 4fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, aou);
     background-color:azure;
     height: 100vh;
     display: grid;
@@ -6,6 +8,7 @@
     "header header header header header"
     ". main main main sidebar"
     "footer footer footer footer footer";
+
 }
 
 header{
@@ -18,6 +21,7 @@ main{
     font-size: 8em;
     font-weight: bolder;
     border: 2px dotted black;
+
 }
 aside{
     background-color:white;
@@ -27,4 +31,22 @@ aside{
 footer{
     background-color: red;
     grid-area: footer;
+}
+section{
+    background-color: blueviolet;
+
+}
+
+img {
+    width: 200px; 
+    max-width: 100%;
+    display: block;
+    margin: auto;
+
+}
+libax{
+    width: 100px;
+    height: auto; 
+    max-width: 100%;
+    display: block;
 }
